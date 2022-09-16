@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">DS Algo Test Automation Test Suite</th></tr>
+<tr><td><a href="#t0">DS Algo Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,469</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">DS Algo Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">DS Algo Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.dsalgo.testcases.LinkedListTest</td><td><a href="#m0">click_createLinkedlist_Test</a></td><td rowspan="1">1663346399016</td><td rowspan="1">92</td></tr><tr><th colspan="4">DS Algo Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.dsalgo.testcases.LinkedListTest</td><td><a href="#m1">click_Getstarted_below_LinkedListTest</a></td><td rowspan="1">1663346385399</td><td rowspan="1">7488</td></tr><tr class="passedeven"><td><a href="#m2">click_Introduction_Test</a></td><td rowspan="1">1663346392892</td><td rowspan="1">1281</td></tr><tr class="passedeven"><td><a href="#m3">click_tryHere_Test</a></td><td rowspan="1">1663346394174</td><td rowspan="1">1452</td></tr><tr class="passedeven"><td><a href="#m4">sendCodeTest</a></td><td rowspan="1">1663346395628</td><td rowspan="1">3385</td></tr></tbody>
+</table>
+<h2>DS Algo Test</h2><h3 id="m0">com.dsalgo.testcases.LinkedListTest#click_createLinkedlist_Test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[contains(text(), &apos;Creating Linked List&apos;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//a[contains(text(), &apos;Creating Linked List&apos;]&apos; is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Sundars-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2fa0:a7e0:0:0:0:41%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cb6580c02b19e0c1f067a50a575df2d, findElement {using=xpath, value=//a[contains(text(), &apos;Creating Linked List&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/6_/d6t7_g7s221...}, goog:chromeOptions: {debuggerAddress: localhost:57347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57347/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb6580c02b19e0c1f067a50a575df2d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.dsalgo.pageObjects.LinkedListPage.click_createLinkedlist(LinkedListPage.java:49)
+	at com.dsalgo.testcases.LinkedListTest.click_createLinkedlist_Test(LinkedListTest.java:76)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.dsalgo.testcases.LinkedListTest#click_Getstarted_below_LinkedListTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.dsalgo.testcases.LinkedListTest#click_Introduction_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.dsalgo.testcases.LinkedListTest#click_tryHere_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.dsalgo.testcases.LinkedListTest#sendCodeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

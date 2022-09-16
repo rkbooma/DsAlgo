@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DS Algo Test Automation Test Suite">
+
+<listeners>
+	<listener class-name="com.dsalgo.listeners.DsAlgoListener"></listener>
+</listeners>
+
+	<test name="DS Algo Test">
+		<classes>
+			<!--class name="com.dsalgo.testcases.PortalTest"></class
+			<class name="com.dsalgo.testcases.HomeTest"></class 
+			<class name="com.dsalgo.testcases.RegisterTest"></class>
+			<class name="com.dsalgo.testcases.SignInTest"></class> 
+			<class name="com.dsalgo.testcases.DataStructureTest"></class-->
+			<class name="com.dsalgo.testcases.LinkedListTest"></class>
+		</classes>
+	</test>
+	
+</suite>
