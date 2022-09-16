@@ -102,7 +102,7 @@ public class RegisterTest extends DsAlgoBase{
 			
 			List<String> message = registerPage.registerUser_With_invalidDetails("RTYURRRRE","1234", "1234");
 			if(!message.isEmpty())
-				Assert.assertEquals(message.size(), 3,"Register user worked without mandatory fields"); //TO-DO
+				Assert.assertEquals(message.size(), 2,"Register user worked without mandatory fields"); //TO-DO
 		}
 		@Test(priority=8)
 		public void registerUser_With_correct_user_passwd() throws InterruptedException

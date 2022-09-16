@@ -6,6 +6,14 @@
   </listeners>
   <test thread-count="5" name="DS Algo Test(failed)">
     <classes>
+      <class name="com.dsalgo.testcases.HomeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getDropDownListCountTest"/>
+          <include name="getPaneCountTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.dsalgo.testcases.HomeTest -->
       <class name="com.dsalgo.testcases.LinkedListTest">
         <methods>
           <include name="click_createLinkedlist_Test"/>
@@ -13,6 +21,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.dsalgo.testcases.LinkedListTest -->
+      <class name="com.dsalgo.testcases.RegisterTest">
+        <methods>
+          <include name="registerUser_With_invalidDetails_With_Onlynumbersin_Passwd"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dsalgo.testcases.RegisterTest -->
     </classes>
   </test> <!-- DS Algo Test(failed) -->
 </suite> <!-- Failed suite [DS Algo Test Automation Test Suite] -->

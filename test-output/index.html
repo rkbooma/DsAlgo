@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite">
-              <span class="suite-name border-passed">DS Algo Test Automation Test Suite</span>
+              <span class="suite-name border-failed">DS Algo Test Automation Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">33 methods, 4 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" class="hide-methods failed suite-DS_Algo_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-DS_Algo_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" class="show-methods failed suite-DS_Algo_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-DS_Algo_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-DS_Algo_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.LinkedListTest" hash-for-method="click_createLinkedlist_Test">click_createLinkedlist_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.HomeTest" hash-for-method="getDropDownListCountTest">getDropDownListCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.HomeTest" hash-for-method="getPaneCountTest">getPaneCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_invalidDetails_With_Onlynumbersin_Passwd">registerUser_With_invalidDetails_With_Onlynumbersin_Passwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DS_Algo_Test_Automation_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +131,26 @@
                       <a href="#" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" class="show-methods passed suite-DS_Algo_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-DS_Algo_Test_Automation_Test_Suite -->
                     </span>
                     <div class="method-list-content passed suite-DS_Algo_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.PortalTest" hash-for-method="clickGetStartedTest">clickGetStartedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.HomeTest" hash-for-method="clickRegbtnTest">clickRegbtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="clickSignOutTest">clickSignOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.DataStructureTest" hash-for-method="click_Getstarted_below_DataStructureTest">click_Getstarted_below_DataStructureTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.LinkedListTest" hash-for-method="click_Getstarted_below_LinkedListTest">click_Getstarted_below_LinkedListTest</a> <!-- method navigator-link -->
@@ -114,7 +163,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.LinkedListTest" hash-for-method="click_createLinkedlist_Test">click_createLinkedlist_Test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.DataStructureTest" hash-for-method="click_practiceQnsTest">click_practiceQnsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.DataStructureTest" hash-for-method="click_timeComplexityTest">click_timeComplexityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.DataStructureTest" hash-for-method="click_tryHereTest">click_tryHereTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,7 +183,97 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.HomeTest" hash-for-method="displaySignInTest">displaySignInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.HomeTest" hash-for-method="getStartedFromDropDownTest">getStartedFromDropDownTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.HomeTest" hash-for-method="getStartedFromPaneTest">getStartedFromPaneTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_correct_user_passwd">registerUser_With_correct_user_passwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_invalidDetailsWith_No_PasswdTest">registerUser_With_invalidDetailsWith_No_PasswdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_invalidDetails_With_No_confirmPasswdTest">registerUser_With_invalidDetails_With_No_confirmPasswdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_invalidDetails_With_diffPasswd">registerUser_With_invalidDetails_With_diffPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_invalidDetails_With_emptyFieldTest">registerUser_With_invalidDetails_With_emptyFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_invalidDetails_With_invalid_userName">registerUser_With_invalidDetails_With_invalid_userName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.RegisterTest" hash-for-method="registerUser_With_invalidDetails_With_lessthan8characters_fPasswd">registerUser_With_invalidDetails_With_lessthan8characters_fPasswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.LinkedListTest" hash-for-method="sendCodeTest">sendCodeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.DataStructureTest" hash-for-method="sendCodeTest">sendCodeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.SignInTest" hash-for-method="signIn_User_With_invalid_Username_Password_Test">signIn_User_With_invalid_Username_Password_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.SignInTest" hash-for-method="signIn_User_With_noPasswd_Test">signIn_User_With_noPasswd_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.SignInTest" hash-for-method="signIn_User_With_noUname_Test">signIn_User_With_noUname_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.SignInTest" hash-for-method="signIn_User_With_no_userpasswordTest">signIn_User_With_no_userpasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.SignInTest" hash-for-method="signIn_User_With_valid_uName_Password_Test">signIn_User_With_valid_uName_Password_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.SignInTest" hash-for-method="signOut_fromSigninPage_Test">signOut_fromSigninPage_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.DataStructureTest" hash-for-method="signOut_from_dataStructurePage_Test">signOut_from_dataStructurePage_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-DS_Algo_Test_Automation_Test_Suite -->
@@ -139,6 +288,234 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DS_Algo_Test_Automation_Test_Suite" class="panel DS_Algo_Test_Automation_Test_Suite">
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dsalgo.testcases.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDropDownListCountTest">
+                  </a> <!-- getDropDownListCountTest -->
+                  <span class="method-name">getDropDownListCountTest</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.testng.Assert.assertEquals(ILjava/lang/Integer;Ljava/lang/String;)V
+	at com.dsalgo.testcases.HomeTest.getDropDownListCountTest(HomeTest.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPaneCountTest">
+                  </a> <!-- getPaneCountTest -->
+                  <span class="method-name">getPaneCountTest</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.testng.Assert.assertEquals(ILjava/lang/Integer;)V
+	at com.dsalgo.testcases.HomeTest.getPaneCountTest(HomeTest.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dsalgo.testcases.LinkedListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_createLinkedlist_Test">
+                  </a> <!-- click_createLinkedlist_Test -->
+                  <span class="method-name">click_createLinkedlist_Test</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//pre//span[@role = &apos;presentation&apos;]/span&quot;}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;unknown40163ba3e049.attlocal.net&apos;, ip: &apos;2600:1700:2fa0:a7e0:0:0:0:41%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bbcdf728ae6d70dc140aac8d7ff9f9f, findElement {using=xpath, value=//pre//span[@role = &apos;presentation&apos;]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/6_/d6t7_g7s221...}, goog:chromeOptions: {debuggerAddress: localhost:52875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52875/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bbcdf728ae6d70dc140aac8d7ff9f9f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.dsalgo.pageObjects.LinkedListPage.sendCode(LinkedListPage.java:37)
+	at com.dsalgo.testcases.LinkedListTest.click_createLinkedlist_Test(LinkedListTest.java:77)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dsalgo.testcases.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_invalidDetails_With_Onlynumbersin_Passwd">
+                  </a> <!-- registerUser_With_invalidDetails_With_Onlynumbersin_Passwd -->
+                  <span class="method-name">registerUser_With_invalidDetails_With_Onlynumbersin_Passwd</span>
+                  <div class="stack-trace">java.lang.AssertionError: Register user worked without mandatory fields expected [2] but found [3]
+	at com.dsalgo.testcases.RegisterTest.registerUser_With_invalidDetails_With_Onlynumbersin_Passwd(RegisterTest.java:105)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.testcases.DataStructureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_Getstarted_below_DataStructureTest">
+                  </a> <!-- click_Getstarted_below_DataStructureTest -->
+                  <span class="method-name">click_Getstarted_below_DataStructureTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_practiceQnsTest">
+                  </a> <!-- click_practiceQnsTest -->
+                  <span class="method-name">click_practiceQnsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_timeComplexityTest">
+                  </a> <!-- click_timeComplexityTest -->
+                  <span class="method-name">click_timeComplexityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_tryHereTest">
+                  </a> <!-- click_tryHereTest -->
+                  <span class="method-name">click_tryHereTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendCodeTest">
+                  </a> <!-- sendCodeTest -->
+                  <span class="method-name">sendCodeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signOut_from_dataStructurePage_Test">
+                  </a> <!-- signOut_from_dataStructurePage_Test -->
+                  <span class="method-name">signOut_from_dataStructurePage_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.testcases.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickRegbtnTest">
+                  </a> <!-- clickRegbtnTest -->
+                  <span class="method-name">clickRegbtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displaySignInTest">
+                  </a> <!-- displaySignInTest -->
+                  <span class="method-name">displaySignInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getStartedFromDropDownTest">
+                  </a> <!-- getStartedFromDropDownTest -->
+                  <span class="method-name">getStartedFromDropDownTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getStartedFromPaneTest">
+                  </a> <!-- getStartedFromPaneTest -->
+                  <span class="method-name">getStartedFromPaneTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.testcases.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_User_With_invalid_Username_Password_Test">
+                  </a> <!-- signIn_User_With_invalid_Username_Password_Test -->
+                  <span class="method-name">signIn_User_With_invalid_Username_Password_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_User_With_noPasswd_Test">
+                  </a> <!-- signIn_User_With_noPasswd_Test -->
+                  <span class="method-name">signIn_User_With_noPasswd_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_User_With_noUname_Test">
+                  </a> <!-- signIn_User_With_noUname_Test -->
+                  <span class="method-name">signIn_User_With_noUname_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_User_With_no_userpasswordTest">
+                  </a> <!-- signIn_User_With_no_userpasswordTest -->
+                  <span class="method-name">signIn_User_With_no_userpasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn_User_With_valid_uName_Password_Test">
+                  </a> <!-- signIn_User_With_valid_uName_Password_Test -->
+                  <span class="method-name">signIn_User_With_valid_uName_Password_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signOut_fromSigninPage_Test">
+                  </a> <!-- signOut_fromSigninPage_Test -->
+                  <span class="method-name">signOut_fromSigninPage_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-passed -->
           <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,13 +538,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="click_createLinkedlist_Test">
-                  </a> <!-- click_createLinkedlist_Test -->
-                  <span class="method-name">click_createLinkedlist_Test</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="click_tryHere_Test">
                   </a> <!-- click_tryHere_Test -->
                   <span class="method-name">click_tryHere_Test</span>
@@ -178,6 +548,85 @@
                   <a name="sendCodeTest">
                   </a> <!-- sendCodeTest -->
                   <span class="method-name">sendCodeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.testcases.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSignOutTest">
+                  </a> <!-- clickSignOutTest -->
+                  <span class="method-name">clickSignOutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_correct_user_passwd">
+                  </a> <!-- registerUser_With_correct_user_passwd -->
+                  <span class="method-name">registerUser_With_correct_user_passwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_invalidDetailsWith_No_PasswdTest">
+                  </a> <!-- registerUser_With_invalidDetailsWith_No_PasswdTest -->
+                  <span class="method-name">registerUser_With_invalidDetailsWith_No_PasswdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_invalidDetails_With_No_confirmPasswdTest">
+                  </a> <!-- registerUser_With_invalidDetails_With_No_confirmPasswdTest -->
+                  <span class="method-name">registerUser_With_invalidDetails_With_No_confirmPasswdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_invalidDetails_With_diffPasswd">
+                  </a> <!-- registerUser_With_invalidDetails_With_diffPasswd -->
+                  <span class="method-name">registerUser_With_invalidDetails_With_diffPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_invalidDetails_With_emptyFieldTest">
+                  </a> <!-- registerUser_With_invalidDetails_With_emptyFieldTest -->
+                  <span class="method-name">registerUser_With_invalidDetails_With_emptyFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_invalidDetails_With_invalid_userName">
+                  </a> <!-- registerUser_With_invalidDetails_With_invalid_userName -->
+                  <span class="method-name">registerUser_With_invalidDetails_With_invalid_userName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_With_invalidDetails_With_lessthan8characters_fPasswd">
+                  </a> <!-- registerUser_With_invalidDetails_With_lessthan8characters_fPasswd -->
+                  <span class="method-name">registerUser_With_invalidDetails_With_lessthan8characters_fPasswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.testcases.PortalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickGetStartedTest">
+                  </a> <!-- clickGetStartedTest -->
+                  <span class="method-name">clickGetStartedTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,6 +646,11 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;DS Algo Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.dsalgo.testcases.PortalTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.testcases.HomeTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.testcases.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.testcases.SignInTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.testcases.DataStructureTest&quot;/&gt;
       &lt;class name=&quot;com.dsalgo.testcases.LinkedListTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- DS Algo Test --&gt;
@@ -211,7 +665,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">DS Algo Test (1 class)</span>
+                <span class="test-name">DS Algo Test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,32 +691,144 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(33);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'click_Getstarted_below_LinkedListTest')
+data.setCell(0, 1, 'click_createLinkedlist_Test')
 data.setCell(0, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(0, 3, 7250);
+data.setCell(0, 3, 20253);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'sendCodeTest')
+data.setCell(1, 1, 'click_Getstarted_below_LinkedListTest')
 data.setCell(1, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(1, 3, 3425);
+data.setCell(1, 3, 6786);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'click_tryHere_Test')
-data.setCell(2, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(2, 3, 1557);
+data.setCell(2, 1, 'signIn_User_With_valid_uName_Password_Test')
+data.setCell(2, 2, 'com.dsalgo.testcases.SignInTest')
+data.setCell(2, 3, 6700);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'click_Introduction_Test')
-data.setCell(3, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(3, 3, 1299);
+data.setCell(3, 1, 'click_Getstarted_below_DataStructureTest')
+data.setCell(3, 2, 'com.dsalgo.testcases.DataStructureTest')
+data.setCell(3, 3, 6472);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'click_createLinkedlist_Test')
-data.setCell(4, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(4, 3, 219);
+data.setCell(4, 1, 'sendCodeTest')
+data.setCell(4, 2, 'com.dsalgo.testcases.DataStructureTest')
+data.setCell(4, 3, 6400);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registerUser_With_invalidDetails_With_emptyFieldTest')
+data.setCell(5, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(5, 3, 5945);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'registerUser_With_correct_user_passwd')
+data.setCell(6, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(6, 3, 5729);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'registerUser_With_invalidDetails_With_lessthan8characters_fPasswd')
+data.setCell(7, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(7, 3, 4574);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'registerUser_With_invalidDetails_With_diffPasswd')
+data.setCell(8, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(8, 3, 4527);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'registerUser_With_invalidDetails_With_Onlynumbersin_Passwd')
+data.setCell(9, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(9, 3, 4466);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signIn_User_With_no_userpasswordTest')
+data.setCell(10, 2, 'com.dsalgo.testcases.SignInTest')
+data.setCell(10, 3, 3858);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'registerUser_With_invalidDetails_With_invalid_userName')
+data.setCell(11, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(11, 3, 3471);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sendCodeTest')
+data.setCell(12, 2, 'com.dsalgo.testcases.LinkedListTest')
+data.setCell(12, 3, 3469);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'click_practiceQnsTest')
+data.setCell(13, 2, 'com.dsalgo.testcases.DataStructureTest')
+data.setCell(13, 3, 3269);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'signIn_User_With_invalid_Username_Password_Test')
+data.setCell(14, 2, 'com.dsalgo.testcases.SignInTest')
+data.setCell(14, 3, 2545);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'click_tryHereTest')
+data.setCell(15, 2, 'com.dsalgo.testcases.DataStructureTest')
+data.setCell(15, 3, 2524);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getStartedFromDropDownTest')
+data.setCell(16, 2, 'com.dsalgo.testcases.HomeTest')
+data.setCell(16, 3, 2432);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getPaneCountTest')
+data.setCell(17, 2, 'com.dsalgo.testcases.HomeTest')
+data.setCell(17, 3, 2425);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickGetStartedTest')
+data.setCell(18, 2, 'com.dsalgo.testcases.PortalTest')
+data.setCell(18, 3, 2413);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'registerUser_With_invalidDetails_With_No_confirmPasswdTest')
+data.setCell(19, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(19, 3, 2346);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clickSignOutTest')
+data.setCell(20, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(20, 3, 2294);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'signIn_User_With_noPasswd_Test')
+data.setCell(21, 2, 'com.dsalgo.testcases.SignInTest')
+data.setCell(21, 3, 2293);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'signOut_from_dataStructurePage_Test')
+data.setCell(22, 2, 'com.dsalgo.testcases.DataStructureTest')
+data.setCell(22, 3, 2288);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'clickRegbtnTest')
+data.setCell(23, 2, 'com.dsalgo.testcases.HomeTest')
+data.setCell(23, 3, 2265);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getStartedFromPaneTest')
+data.setCell(24, 2, 'com.dsalgo.testcases.HomeTest')
+data.setCell(24, 3, 2251);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'signOut_fromSigninPage_Test')
+data.setCell(25, 2, 'com.dsalgo.testcases.SignInTest')
+data.setCell(25, 3, 2229);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getDropDownListCountTest')
+data.setCell(26, 2, 'com.dsalgo.testcases.HomeTest')
+data.setCell(26, 3, 2102);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'click_tryHere_Test')
+data.setCell(27, 2, 'com.dsalgo.testcases.LinkedListTest')
+data.setCell(27, 3, 1497);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'registerUser_With_invalidDetailsWith_No_PasswdTest')
+data.setCell(28, 2, 'com.dsalgo.testcases.RegisterTest')
+data.setCell(28, 3, 1361);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'click_Introduction_Test')
+data.setCell(29, 2, 'com.dsalgo.testcases.LinkedListTest')
+data.setCell(29, 3, 1325);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'click_timeComplexityTest')
+data.setCell(30, 2, 'com.dsalgo.testcases.DataStructureTest')
+data.setCell(30, 3, 1285);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'signIn_User_With_noUname_Test')
+data.setCell(31, 2, 'com.dsalgo.testcases.SignInTest')
+data.setCell(31, 3, 1243);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'displaySignInTest')
+data.setCell(32, 2, 'com.dsalgo.testcases.HomeTest')
+data.setCell(32, 3, 222);
 window.suiteTableData['DS_Algo_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-DS_Algo_Test_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-DS_Algo_Test_Automation_Test_Suite">
               </div> <!-- times-div-DS_Algo_Test_Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -288,34 +854,209 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.dsalgo.testcases.LinkedListTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="chronological-class-name">com.dsalgo.testcases.PortalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickGetStartedTest</span>
+                <span class="method-start">24833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27262 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.testcases.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27395 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">click_Getstarted_below_LinkedListTest</span>
-                <span class="method-start">21966 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getPaneCountTest</span>
+                <span class="method-start">29404 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">click_Introduction_Test</span>
-                <span class="method-start">29222 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getDropDownListCountTest</span>
+                <span class="method-start">32367 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">click_tryHere_Test</span>
-                <span class="method-start">30523 ms</span>
+                <span class="method-name">getStartedFromPaneTest</span>
+                <span class="method-start">35000 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">sendCodeTest</span>
-                <span class="method-start">32082 ms</span>
+                <span class="method-name">getStartedFromDropDownTest</span>
+                <span class="method-start">37255 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">click_createLinkedlist_Test</span>
-                <span class="method-start">35509 ms</span>
+                <span class="method-name">displaySignInTest</span>
+                <span class="method-start">39693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickRegbtnTest</span>
+                <span class="method-start">39918 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35730 ms</span>
+                <span class="method-start">42184 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.testcases.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42354 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">registerUser_With_invalidDetails_With_emptyFieldTest</span>
+                <span class="method-start">44432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUser_With_invalidDetailsWith_No_PasswdTest</span>
+                <span class="method-start">50379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUser_With_invalidDetails_With_No_confirmPasswdTest</span>
+                <span class="method-start">51742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUser_With_invalidDetails_With_invalid_userName</span>
+                <span class="method-start">54093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUser_With_invalidDetails_With_diffPasswd</span>
+                <span class="method-start">57567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUser_With_invalidDetails_With_lessthan8characters_fPasswd</span>
+                <span class="method-start">62097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registerUser_With_invalidDetails_With_Onlynumbersin_Passwd</span>
+                <span class="method-start">66675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUser_With_correct_user_passwd</span>
+                <span class="method-start">71473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSignOutTest</span>
+                <span class="method-start">77206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79505 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.testcases.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79736 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signIn_User_With_no_userpasswordTest</span>
+                <span class="method-start">81940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signIn_User_With_noUname_Test</span>
+                <span class="method-start">85800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signIn_User_With_noPasswd_Test</span>
+                <span class="method-start">87046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signIn_User_With_invalid_Username_Password_Test</span>
+                <span class="method-start">89342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signIn_User_With_valid_uName_Password_Test</span>
+                <span class="method-start">91888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signOut_fromSigninPage_Test</span>
+                <span class="method-start">98594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100824 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.testcases.DataStructureTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">100953 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">click_Getstarted_below_DataStructureTest</span>
+                <span class="method-start">103032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_timeComplexityTest</span>
+                <span class="method-start">109508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_practiceQnsTest</span>
+                <span class="method-start">110796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_tryHereTest</span>
+                <span class="method-start">114067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendCodeTest</span>
+                <span class="method-start">116595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signOut_from_dataStructurePage_Test</span>
+                <span class="method-start">122997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125287 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.testcases.LinkedListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125449 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">click_Getstarted_below_LinkedListTest</span>
+                <span class="method-start">127474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_Introduction_Test</span>
+                <span class="method-start">134262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_tryHere_Test</span>
+                <span class="method-start">135590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendCodeTest</span>
+                <span class="method-start">137089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">click_createLinkedlist_Test</span>
+                <span class="method-start">140564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">161532 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

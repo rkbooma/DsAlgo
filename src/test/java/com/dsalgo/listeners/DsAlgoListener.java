@@ -12,7 +12,6 @@ public class DsAlgoListener extends DsAlgoBase implements ITestListener
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		System.out.println("Inside OnTestStart" + result.getName());
 	}
 
 	@Override

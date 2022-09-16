@@ -8,12 +8,13 @@
 
 	<test name="DS Algo Test">
 		<classes>
-			<!--class name="com.dsalgo.testcases.PortalTest"></class
-			<class name="com.dsalgo.testcases.HomeTest"></class 
+			<class name="com.dsalgo.testcases.PortalTest"></class>
+			<class name="com.dsalgo.testcases.HomeTest"></class>
 			<class name="com.dsalgo.testcases.RegisterTest"></class>
 			<class name="com.dsalgo.testcases.SignInTest"></class> 
-			<class name="com.dsalgo.testcases.DataStructureTest"></class-->
+			<class name="com.dsalgo.testcases.DataStructureTest"></class>
 			<class name="com.dsalgo.testcases.LinkedListTest"></class>
+			<!--  hiii -->
 		</classes>
 	</test>
 	

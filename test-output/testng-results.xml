@@ -1,41 +1,392 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="4" ignored="0" total="33" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="DS Algo Test Automation Test Suite" duration-ms="35970" started-at="2022-09-16T13:31:52 CDT" finished-at="2022-09-16T13:32:28 CDT">
+  <suite name="DS Algo Test Automation Test Suite" duration-ms="161741" started-at="2022-09-16T15:03:21 CDT" finished-at="2022-09-16T15:06:03 CDT">
     <groups>
     </groups>
-    <test name="DS Algo Test" duration-ms="35970" started-at="2022-09-16T13:31:52 CDT" finished-at="2022-09-16T13:32:28 CDT">
-      <class name="com.dsalgo.testcases.LinkedListTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dsalgo.testcases.LinkedListTest@7cbd213e]" name="setUp" is-config="true" duration-ms="21936" started-at="2022-09-16T13:31:52 CDT" finished-at="2022-09-16T13:32:14 CDT">
+    <test name="DS Algo Test" duration-ms="161741" started-at="2022-09-16T15:03:21 CDT" finished-at="2022-09-16T15:06:03 CDT">
+      <class name="com.dsalgo.testcases.DataStructureTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="setUp" is-config="true" duration-ms="2078" started-at="2022-09-16T15:05:02 CDT" finished-at="2022-09-16T15:05:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="click_Getstarted_below_LinkedListTest()[pri:1, instance:com.dsalgo.testcases.LinkedListTest@7cbd213e]" name="click_Getstarted_below_LinkedListTest" duration-ms="7250" started-at="2022-09-16T13:32:14 CDT" finished-at="2022-09-16T13:32:22 CDT">
+        <test-method status="PASS" signature="click_Getstarted_below_DataStructureTest()[pri:1, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="click_Getstarted_below_DataStructureTest" duration-ms="6472" started-at="2022-09-16T15:05:04 CDT" finished-at="2022-09-16T15:05:11 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_Getstarted_below_LinkedListTest -->
-        <test-method status="PASS" signature="click_Introduction_Test()[pri:2, instance:com.dsalgo.testcases.LinkedListTest@7cbd213e]" name="click_Introduction_Test" duration-ms="1299" started-at="2022-09-16T13:32:22 CDT" finished-at="2022-09-16T13:32:23 CDT">
+        </test-method> <!-- click_Getstarted_below_DataStructureTest -->
+        <test-method status="PASS" signature="click_timeComplexityTest()[pri:2, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="click_timeComplexityTest" duration-ms="1285" started-at="2022-09-16T15:05:11 CDT" finished-at="2022-09-16T15:05:12 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_Introduction_Test -->
-        <test-method status="PASS" signature="click_tryHere_Test()[pri:3, instance:com.dsalgo.testcases.LinkedListTest@7cbd213e]" name="click_tryHere_Test" duration-ms="1557" started-at="2022-09-16T13:32:23 CDT" finished-at="2022-09-16T13:32:24 CDT">
+        </test-method> <!-- click_timeComplexityTest -->
+        <test-method status="PASS" signature="click_practiceQnsTest()[pri:3, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="click_practiceQnsTest" duration-ms="3269" started-at="2022-09-16T15:05:12 CDT" finished-at="2022-09-16T15:05:15 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_tryHere_Test -->
-        <test-method status="PASS" signature="sendCodeTest()[pri:5, instance:com.dsalgo.testcases.LinkedListTest@7cbd213e]" name="sendCodeTest" duration-ms="3425" started-at="2022-09-16T13:32:24 CDT" finished-at="2022-09-16T13:32:28 CDT">
+        </test-method> <!-- click_practiceQnsTest -->
+        <test-method status="PASS" signature="click_tryHereTest()[pri:4, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="click_tryHereTest" duration-ms="2524" started-at="2022-09-16T15:05:15 CDT" finished-at="2022-09-16T15:05:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_tryHereTest -->
+        <test-method status="PASS" signature="sendCodeTest()[pri:5, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="sendCodeTest" duration-ms="6400" started-at="2022-09-16T15:05:18 CDT" finished-at="2022-09-16T15:05:24 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendCodeTest -->
-        <test-method status="PASS" signature="click_createLinkedlist_Test()[pri:6, instance:com.dsalgo.testcases.LinkedListTest@7cbd213e]" name="click_createLinkedlist_Test" duration-ms="219" started-at="2022-09-16T13:32:28 CDT" finished-at="2022-09-16T13:32:28 CDT">
+        <test-method status="PASS" signature="signOut_from_dataStructurePage_Test()[pri:6, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="signOut_from_dataStructurePage_Test" duration-ms="2288" started-at="2022-09-16T15:05:24 CDT" finished-at="2022-09-16T15:05:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut_from_dataStructurePage_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dsalgo.testcases.DataStructureTest@402bba4f]" name="tearDown" is-config="true" duration-ms="162" started-at="2022-09-16T15:05:27 CDT" finished-at="2022-09-16T15:05:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.testcases.DataStructureTest -->
+      <class name="com.dsalgo.testcases.SignInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="setUp" is-config="true" duration-ms="2203" started-at="2022-09-16T15:04:41 CDT" finished-at="2022-09-16T15:04:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signIn_User_With_no_userpasswordTest()[pri:1, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="signIn_User_With_no_userpasswordTest" duration-ms="3858" started-at="2022-09-16T15:04:43 CDT" finished-at="2022-09-16T15:04:47 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn_User_With_no_userpasswordTest -->
+        <test-method status="PASS" signature="signIn_User_With_noUname_Test()[pri:2, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="signIn_User_With_noUname_Test" duration-ms="1243" started-at="2022-09-16T15:04:47 CDT" finished-at="2022-09-16T15:04:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn_User_With_noUname_Test -->
+        <test-method status="PASS" signature="signIn_User_With_noPasswd_Test()[pri:3, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="signIn_User_With_noPasswd_Test" duration-ms="2293" started-at="2022-09-16T15:04:48 CDT" finished-at="2022-09-16T15:04:51 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn_User_With_noPasswd_Test -->
+        <test-method status="PASS" signature="signIn_User_With_invalid_Username_Password_Test()[pri:4, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="signIn_User_With_invalid_Username_Password_Test" duration-ms="2545" started-at="2022-09-16T15:04:51 CDT" finished-at="2022-09-16T15:04:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn_User_With_invalid_Username_Password_Test -->
+        <test-method status="PASS" signature="signIn_User_With_valid_uName_Password_Test()[pri:5, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="signIn_User_With_valid_uName_Password_Test" duration-ms="6700" started-at="2022-09-16T15:04:53 CDT" finished-at="2022-09-16T15:05:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn_User_With_valid_uName_Password_Test -->
+        <test-method status="PASS" signature="signOut_fromSigninPage_Test()[pri:6, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="signOut_fromSigninPage_Test" duration-ms="2229" started-at="2022-09-16T15:05:00 CDT" finished-at="2022-09-16T15:05:02 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut_fromSigninPage_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dsalgo.testcases.SignInTest@6e171cd7]" name="tearDown" is-config="true" duration-ms="129" started-at="2022-09-16T15:05:02 CDT" finished-at="2022-09-16T15:05:02 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.testcases.SignInTest -->
+      <class name="com.dsalgo.testcases.LinkedListTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dsalgo.testcases.LinkedListTest@795cd85e]" name="setUp" is-config="true" duration-ms="2025" started-at="2022-09-16T15:05:27 CDT" finished-at="2022-09-16T15:05:29 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="click_Getstarted_below_LinkedListTest()[pri:1, instance:com.dsalgo.testcases.LinkedListTest@795cd85e]" name="click_Getstarted_below_LinkedListTest" duration-ms="6786" started-at="2022-09-16T15:05:29 CDT" finished-at="2022-09-16T15:05:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Getstarted_below_LinkedListTest -->
+        <test-method status="PASS" signature="click_Introduction_Test()[pri:2, instance:com.dsalgo.testcases.LinkedListTest@795cd85e]" name="click_Introduction_Test" duration-ms="1325" started-at="2022-09-16T15:05:36 CDT" finished-at="2022-09-16T15:05:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Introduction_Test -->
+        <test-method status="PASS" signature="click_tryHere_Test()[pri:3, instance:com.dsalgo.testcases.LinkedListTest@795cd85e]" name="click_tryHere_Test" duration-ms="1497" started-at="2022-09-16T15:05:37 CDT" finished-at="2022-09-16T15:05:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_tryHere_Test -->
+        <test-method status="PASS" signature="sendCodeTest()[pri:5, instance:com.dsalgo.testcases.LinkedListTest@795cd85e]" name="sendCodeTest" duration-ms="3469" started-at="2022-09-16T15:05:38 CDT" finished-at="2022-09-16T15:05:42 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendCodeTest -->
+        <test-method status="FAIL" signature="click_createLinkedlist_Test()[pri:6, instance:com.dsalgo.testcases.LinkedListTest@795cd85e]" name="click_createLinkedlist_Test" duration-ms="20253" started-at="2022-09-16T15:05:42 CDT" finished-at="2022-09-16T15:06:02 CDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//pre//span[@role = 'presentation']/span"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'unknown40163ba3e049.attlocal.net', ip: '2600:1700:2fa0:a7e0:0:0:0:41%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bbcdf728ae6d70dc140aac8d7ff9f9f, findElement {using=xpath, value=//pre//span[@role = 'presentation']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/6_/d6t7_g7s221...}, goog:chromeOptions: {debuggerAddress: localhost:52875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52875/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bbcdf728ae6d70dc140aac8d7ff9f9f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//pre//span[@role = 'presentation']/span"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'unknown40163ba3e049.attlocal.net', ip: '2600:1700:2fa0:a7e0:0:0:0:41%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bbcdf728ae6d70dc140aac8d7ff9f9f, findElement {using=xpath, value=//pre//span[@role = 'presentation']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/6_/d6t7_g7s221...}, goog:chromeOptions: {debuggerAddress: localhost:52875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52875/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bbcdf728ae6d70dc140aac8d7ff9f9f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at com.dsalgo.pageObjects.LinkedListPage.sendCode(LinkedListPage.java:37)
+at com.dsalgo.testcases.LinkedListTest.click_createLinkedlist_Test(LinkedListTest.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_createLinkedlist_Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dsalgo.testcases.LinkedListTest@7cbd213e]" name="tearDown" is-config="true" duration-ms="218" started-at="2022-09-16T13:32:28 CDT" finished-at="2022-09-16T13:32:28 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dsalgo.testcases.LinkedListTest@795cd85e]" name="tearDown" is-config="true" duration-ms="161" started-at="2022-09-16T15:06:03 CDT" finished-at="2022-09-16T15:06:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dsalgo.testcases.LinkedListTest -->
+      <class name="com.dsalgo.testcases.PortalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dsalgo.testcases.PortalTest@2145b572]" name="setUp" is-config="true" duration-ms="24738" started-at="2022-09-16T15:03:21 CDT" finished-at="2022-09-16T15:03:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickGetStartedTest()[pri:1, instance:com.dsalgo.testcases.PortalTest@2145b572]" name="clickGetStartedTest" duration-ms="2413" started-at="2022-09-16T15:03:46 CDT" finished-at="2022-09-16T15:03:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStartedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dsalgo.testcases.PortalTest@2145b572]" name="tearDown" is-config="true" duration-ms="131" started-at="2022-09-16T15:03:49 CDT" finished-at="2022-09-16T15:03:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.testcases.PortalTest -->
+      <class name="com.dsalgo.testcases.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="setUp" is-config="true" duration-ms="2077" started-at="2022-09-16T15:04:04 CDT" finished-at="2022-09-16T15:04:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerUser_With_invalidDetails_With_emptyFieldTest()[pri:1, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_invalidDetails_With_emptyFieldTest" duration-ms="5945" started-at="2022-09-16T15:04:06 CDT" finished-at="2022-09-16T15:04:12 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_invalidDetails_With_emptyFieldTest -->
+        <test-method status="PASS" signature="registerUser_With_invalidDetailsWith_No_PasswdTest()[pri:2, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_invalidDetailsWith_No_PasswdTest" duration-ms="1361" started-at="2022-09-16T15:04:12 CDT" finished-at="2022-09-16T15:04:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_invalidDetailsWith_No_PasswdTest -->
+        <test-method status="PASS" signature="registerUser_With_invalidDetails_With_No_confirmPasswdTest()[pri:3, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_invalidDetails_With_No_confirmPasswdTest" duration-ms="2346" started-at="2022-09-16T15:04:13 CDT" finished-at="2022-09-16T15:04:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_invalidDetails_With_No_confirmPasswdTest -->
+        <test-method status="PASS" signature="registerUser_With_invalidDetails_With_invalid_userName()[pri:4, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_invalidDetails_With_invalid_userName" duration-ms="3471" started-at="2022-09-16T15:04:15 CDT" finished-at="2022-09-16T15:04:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_invalidDetails_With_invalid_userName -->
+        <test-method status="PASS" signature="registerUser_With_invalidDetails_With_diffPasswd()[pri:5, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_invalidDetails_With_diffPasswd" duration-ms="4527" started-at="2022-09-16T15:04:19 CDT" finished-at="2022-09-16T15:04:23 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_invalidDetails_With_diffPasswd -->
+        <test-method status="PASS" signature="registerUser_With_invalidDetails_With_lessthan8characters_fPasswd()[pri:6, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_invalidDetails_With_lessthan8characters_fPasswd" duration-ms="4574" started-at="2022-09-16T15:04:23 CDT" finished-at="2022-09-16T15:04:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_invalidDetails_With_lessthan8characters_fPasswd -->
+        <test-method status="FAIL" signature="registerUser_With_invalidDetails_With_Onlynumbersin_Passwd()[pri:7, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_invalidDetails_With_Onlynumbersin_Passwd" duration-ms="4466" started-at="2022-09-16T15:04:28 CDT" finished-at="2022-09-16T15:04:32 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Register user worked without mandatory fields expected [2] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Register user worked without mandatory fields expected [2] but found [3]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at com.dsalgo.testcases.RegisterTest.registerUser_With_invalidDetails_With_Onlynumbersin_Passwd(RegisterTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_invalidDetails_With_Onlynumbersin_Passwd -->
+        <test-method status="PASS" signature="registerUser_With_correct_user_passwd()[pri:8, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="registerUser_With_correct_user_passwd" duration-ms="5729" started-at="2022-09-16T15:04:33 CDT" finished-at="2022-09-16T15:04:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_With_correct_user_passwd -->
+        <test-method status="PASS" signature="clickSignOutTest()[pri:9, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="clickSignOutTest" duration-ms="2294" started-at="2022-09-16T15:04:38 CDT" finished-at="2022-09-16T15:04:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dsalgo.testcases.RegisterTest@498d318c]" name="tearDown" is-config="true" duration-ms="231" started-at="2022-09-16T15:04:41 CDT" finished-at="2022-09-16T15:04:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.testcases.RegisterTest -->
+      <class name="com.dsalgo.testcases.HomeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="setUp" is-config="true" duration-ms="2008" started-at="2022-09-16T15:03:49 CDT" finished-at="2022-09-16T15:03:51 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getPaneCountTest()[pri:1, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="getPaneCountTest" duration-ms="2425" started-at="2022-09-16T15:03:51 CDT" finished-at="2022-09-16T15:03:53 CDT">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.testng.Assert.assertEquals(ILjava/lang/Integer;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.testng.Assert.assertEquals(ILjava/lang/Integer;)V
+at com.dsalgo.testcases.HomeTest.getPaneCountTest(HomeTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPaneCountTest -->
+        <test-method status="FAIL" signature="getDropDownListCountTest()[pri:2, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="getDropDownListCountTest" duration-ms="2102" started-at="2022-09-16T15:03:54 CDT" finished-at="2022-09-16T15:03:56 CDT">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.testng.Assert.assertEquals(ILjava/lang/Integer;Ljava/lang/String;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.testng.Assert.assertEquals(ILjava/lang/Integer;Ljava/lang/String;)V
+at com.dsalgo.testcases.HomeTest.getDropDownListCountTest(HomeTest.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDropDownListCountTest -->
+        <test-method status="PASS" signature="getStartedFromPaneTest()[pri:3, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="getStartedFromPaneTest" duration-ms="2251" started-at="2022-09-16T15:03:56 CDT" finished-at="2022-09-16T15:03:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedFromPaneTest -->
+        <test-method status="PASS" signature="getStartedFromDropDownTest()[pri:4, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="getStartedFromDropDownTest" duration-ms="2432" started-at="2022-09-16T15:03:59 CDT" finished-at="2022-09-16T15:04:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedFromDropDownTest -->
+        <test-method status="PASS" signature="displaySignInTest()[pri:5, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="displaySignInTest" duration-ms="222" started-at="2022-09-16T15:04:01 CDT" finished-at="2022-09-16T15:04:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySignInTest -->
+        <test-method status="PASS" signature="clickRegbtnTest()[pri:6, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="clickRegbtnTest" duration-ms="2265" started-at="2022-09-16T15:04:01 CDT" finished-at="2022-09-16T15:04:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegbtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dsalgo.testcases.HomeTest@479d31f3]" name="tearDown" is-config="true" duration-ms="169" started-at="2022-09-16T15:04:03 CDT" finished-at="2022-09-16T15:04:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.testcases.HomeTest -->
     </test> <!-- DS Algo Test -->
   </suite> <!-- DS Algo Test Automation Test Suite -->
 </testng-results>
