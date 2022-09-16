@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite">
-              <span class="suite-name border-failed">DS Algo Test Automation Test Suite</span>
+              <span class="suite-name border-passed">DS Algo Test Automation Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" class="hide-methods failed suite-DS_Algo_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-DS_Algo_Test_Automation_Test_Suite -->
-                      <a href="#" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" class="show-methods failed suite-DS_Algo_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-DS_Algo_Test_Automation_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-DS_Algo_Test_Automation_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.LinkedListTest" hash-for-method="click_createLinkedlist_Test">click_createLinkedlist_Test</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-DS_Algo_Test_Automation_Test_Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -124,6 +110,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.LinkedListTest" hash-for-method="click_Introduction_Test">click_Introduction_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DS_Algo_Test_Automation_Test_Suite" title="com.dsalgo.testcases.LinkedListTest" hash-for-method="click_createLinkedlist_Test">click_createLinkedlist_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,47 +139,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DS_Algo_Test_Automation_Test_Suite" class="panel DS_Algo_Test_Automation_Test_Suite">
-          <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.dsalgo.testcases.LinkedListTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="click_createLinkedlist_Test">
-                  </a> <!-- click_createLinkedlist_Test -->
-                  <span class="method-name">click_createLinkedlist_Test</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[contains(text(), &apos;Creating Linked List&apos;] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//a[contains(text(), &apos;Creating Linked List&apos;]&apos; is not a valid XPath expression.
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;Sundars-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2fa0:a7e0:0:0:0:41%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_311&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8cb6580c02b19e0c1f067a50a575df2d, findElement {using=xpath, value=//a[contains(text(), &apos;Creating Linked List&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/6_/d6t7_g7s221...}, goog:chromeOptions: {debuggerAddress: localhost:57347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57347/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8cb6580c02b19e0c1f067a50a575df2d
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at com.dsalgo.pageObjects.LinkedListPage.click_createLinkedlist(LinkedListPage.java:49)
-	at com.dsalgo.testcases.LinkedListTest.click_createLinkedlist_Test(LinkedListTest.java:76)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-DS_Algo_Test_Automation_Test_Suite-class-failed -->
           <div class="suite-DS_Algo_Test_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -207,6 +157,13 @@ Session ID: 8cb6580c02b19e0c1f067a50a575df2d
                   <a name="click_Introduction_Test">
                   </a> <!-- click_Introduction_Test -->
                   <span class="method-name">click_Introduction_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_createLinkedlist_Test">
+                  </a> <!-- click_createLinkedlist_Test -->
+                  <span class="method-name">click_createLinkedlist_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -284,23 +241,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'click_Getstarted_below_LinkedListTest')
 data.setCell(0, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(0, 3, 7488);
+data.setCell(0, 3, 7250);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'sendCodeTest')
 data.setCell(1, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(1, 3, 3385);
+data.setCell(1, 3, 3425);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'click_tryHere_Test')
 data.setCell(2, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(2, 3, 1452);
+data.setCell(2, 3, 1557);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'click_Introduction_Test')
 data.setCell(3, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(3, 3, 1281);
+data.setCell(3, 3, 1299);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'click_createLinkedlist_Test')
 data.setCell(4, 2, 'com.dsalgo.testcases.LinkedListTest')
-data.setCell(4, 3, 92);
+data.setCell(4, 3, 219);
 window.suiteTableData['DS_Algo_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-DS_Algo_Test_Automation_Test_Suite'}
 return data;
 }
@@ -338,29 +295,27 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">click_Getstarted_below_LinkedListTest</span>
-                <span class="method-start">4043 ms</span>
+                <span class="method-start">21966 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_Introduction_Test</span>
-                <span class="method-start">11536 ms</span>
+                <span class="method-start">29222 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_tryHere_Test</span>
-                <span class="method-start">12818 ms</span>
+                <span class="method-start">30523 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sendCodeTest</span>
-                <span class="method-start">14272 ms</span>
+                <span class="method-start">32082 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">click_createLinkedlist_Test</span>
-                <span class="method-start">17660 ms</span>
+                <span class="method-start">35509 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18287 ms</span>
+                <span class="method-start">35730 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

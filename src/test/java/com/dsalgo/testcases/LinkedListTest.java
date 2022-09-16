@@ -74,6 +74,11 @@ public class LinkedListTest extends DsAlgoBase {
 	
 	{
 		linkedListPage.click_createLinkedlist();
+		linkedListPage.sendCode();
+		linkedListPage.clickRun_btn();
+		Thread.sleep(2000);
+		driver.navigate().back();
+		
 	}
 	
 	@AfterClass

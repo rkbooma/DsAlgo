@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 
 import com.dsalgo.dsbase.DsAlgoBase;
+import com.dsalgo.util.DsAlgoUtil;
 
 	
 	public class LinkedListPage extends DsAlgoBase{
@@ -47,6 +48,7 @@ import com.dsalgo.dsbase.DsAlgoBase;
 		public void click_createLinkedlist() throws InterruptedException 
 		{
 			driver.findElement(createLinkedlist).click();
+			DsAlgoUtil.scroll(driver, 0, 350);
 			
 			
 		}
