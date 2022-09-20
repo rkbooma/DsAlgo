@@ -34,8 +34,9 @@ public class DsAlgoBase {
 	}
 
 	public static void initialization() {
+//		static String driverPath = System.getProperty("user.dir") + "/src/test/resources/Driver/chromedriver.exe";
 
-		System.setProperty("webdriver.chrome.driver", prop.getProperty("chrome.driver.location"));
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + prop.getProperty("chrome.driver.location"));
 		driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
